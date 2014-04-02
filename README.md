@@ -13,10 +13,10 @@ How to use GitHub:
 1. Create branch.
 2. clone repository to your computer
 3. GitShell commands:
-	switch branches: checkout [branch]
-	e.g. initially I am in [master]. I want to switch to branch_kris. Command looks like: git checkout branch_kris
+	switch branches: git checkout -b [branch_name]
+	e.g. initially I am in [master]. I want to switch to branch_kris. Command looks like: git checkout -b branch_kris
 	
-	git pull origin master - pulls code from MASTER branch
+	git pull origin master - pulls code from MASTER branch into your branch
 	git pull - pulls code from branch you're currently on
 	
 	git status - chack current local repository status (on your workspace)
