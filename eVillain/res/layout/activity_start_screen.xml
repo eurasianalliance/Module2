@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_screen_background"
+    tools:context=".StartScreen" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#CCCC"
+            android:text="@string/hero_name_prompt"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFF"
+            android:textSize="@dimen/Medium"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/edit_hero_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Type in name here..."
+                android:singleLine="true"
+                android:textColor="#FFFF"
+                android:textColorHint="#FFFF"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/ButtonBarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center|fill_vertical"
+            android:lineSpacingExtra="1dp"
+            android:lines="1"
+            android:onClick="assignPlayerName"
+            android:text="@string/button_input_name"
+            android:textColor="#FFFF"
+            android:textSize="@dimen/Medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>
