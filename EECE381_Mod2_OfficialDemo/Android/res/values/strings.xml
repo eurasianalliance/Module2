@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Villain</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="player_name"> p_name </string>
+    <string name="title_activity_start_screen">E-Villain</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hero_name_prompt">Hero Name</string>
+    <string name="button_input_name">For Science!</string>
+    <string name="player_action"> chose </string>
+    <string name="player_choice"> n/a </string>
+    <string name="label_ip">IP:</string>
+    <string name="playsong">Play Song</string>
+    <string name="label_port">Port:</string>
+    <string name="printsong">Print Song on Debug</string>
+    <string name="connect">Connect</string>
+    <string name="clear">Clear</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">E-Villain</string>
+    <string name="label_myip">My IP:</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="refresh_socket">Show Sock.</string>
+    <string name="start_start_screen">Start</string>
+    <string name="title_activity_game_screen">Command Centre</string>
+    <string name="button_6">Send Action</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="getFromDE2">Get actions</string>
+    
+    <string name="a0">Kick</string>
+	<string name="a1">Punch</string>
+	<string name="a2">Slap</string>
+	<string name="a3">Insult</string>
+	<string name="a4">Headbutt</string>
+	<string name="a5">Meditate</string>
+	<string name="a6">Heal</string>
+	<string name="a7">Help</string>
+	<string name="a8">Laugh</string>
+	<string name="a9">Taunt</string>
+	<string name="a10">Snipe</string>
+	<string name="a11">Suppress</string>
+	<string name="a12">Melee</string>
+	<string name="a13">Yell</string>
+	<string name="a14">Bite</string>
+	<string name="a15">Napalm</string>
+	<string name="a16">Electrocute</string>
+	<string name="a17">Cry</string>
+	<string name="a18">Kamehameha</string>
+	<string name="a19">Debate</string>
+	<string name="a20">_</string>
+
+</resources>
