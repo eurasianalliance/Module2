@@ -1317,7 +1317,6 @@ public void chooseAction_b5(View view) {
 										//t.show();
 										
 										//VIBRATION
-										// Create a New Intent and start the service
 									    //Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
 										//startService(intentVibrate);
 										
@@ -1327,7 +1326,6 @@ public void chooseAction_b5(View view) {
 										//s.show();
 										
 										//VIBRATION
-										// Create a New Intent and start the service
 									    //Intent intentVibrate =new Intent(getApplicationContext(),VibrateService.class);
 										//startService(intentVibrate);
 										
